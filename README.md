@@ -1,2 +1,2 @@
 # Simple-Automations
-This includes several automation examplesfor simple and time consuming tasks
+This includes some automation examples for simple and time-consuming tasks
