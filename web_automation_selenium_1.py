@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-# This is an example of web automation using selenium where we open youtube.com and search through the search bar
+# This is an example #1 of web automation using selenium where we open youtube.com and search through the search bar
 
 # creates a new instance of the chromedriver(which needs to be installed separately and moved to path folder)
 driver = webdriver.Chrome()
