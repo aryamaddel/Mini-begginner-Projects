@@ -16,3 +16,11 @@ print(connection)
 data_encryption = conn.starttls()
 # if the tuple has 220 as the first integer then the encryption is successful
 print(data_encryption)
+
+user_email = input("Enter your email")
+user_password = input("Enter your Password")
+
+# 2-step verification should be disabled and 'less secure app access should be enabled' to successfully login in
+
+conn.login(user_email, user_password)
+conn.sendmail(user_email, input("Enter recipient's address"), "Test email 123098")
