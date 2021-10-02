@@ -6,3 +6,4 @@ This includes some automation examples for simple and time-consuming tasks
 3. emailer.py uses the smtp server to send emails, by using the smtplib module.
 4. phone_number_identifier.py searches for phone numbers using pattern recogniztion.
 5. web_automation_Instagram_1.py opens instagram and logs in.
+6. YouTube-Video-Downloader.py downloads any video from Youtube.
