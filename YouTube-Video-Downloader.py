@@ -1,6 +1,6 @@
 from pytube import YouTube
 
-video = YouTube("https://www.youtube.com/watch?v=RkC0l4iekYo&t=41s")  # Video URL
+video = YouTube("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # Video URL
 print(video.thumbnail_url)
 print(video.length)
 
