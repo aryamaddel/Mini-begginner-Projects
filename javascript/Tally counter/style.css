@@ -2,6 +2,8 @@ html,
 body {
   color: white;
   background-color: black;
+  font-family: monospace;
+  letter-spacing: 0.2em;
 }
 .app .container {
   padding: 1em;
