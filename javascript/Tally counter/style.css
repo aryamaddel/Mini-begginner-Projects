@@ -21,18 +21,17 @@ body {
   align-items: center;
   align-content: center;
 }
-.app .container .increment-btn {
+.app .container #increment-btn {
   color: white;
   background-color: dodgerblue;
-  border-radius: 7.5%;
   padding: 1em;
   cursor: pointer;
   border: none;
   font-size: x-large;
 }
-.app .container .increment-btn:hover {
+.app .container #increment-btn:hover {
   background-color: tomato;
-  border-width: 0.25em;
+  border-width: 0.2em;
   border-color: white;
   border-style: solid;
   transition: 200ms;
