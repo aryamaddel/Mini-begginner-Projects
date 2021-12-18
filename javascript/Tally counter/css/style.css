@@ -5,26 +5,50 @@ html {
   font-family: monospace;
   letter-spacing: 0.2em;
 }
+
 .app .container {
   margin: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
+
 .app .container .counter {
   margin: 7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
+
 .app .container .counter #count-el {
   font-size: 4em;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .app .container #increment-btn {
   margin: 1em;
   color: #fff;
@@ -34,11 +58,14 @@ html {
   border: none;
   font-size: x-large;
 }
+
 .app .container #increment-btn:hover {
   color: red;
   background-color: #fff;
+  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
+
 .app .container #reset-btn {
   color: #fff;
   background-color: #32cd32;
@@ -49,8 +76,11 @@ html {
   font-size: x-large;
   border-radius: 50%;
 }
+
 .app .container #reset-btn:hover {
   color: #51b851;
   background-color: #fff;
+  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
+/*# sourceMappingURL=style.css.map */
