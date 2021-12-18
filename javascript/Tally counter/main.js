@@ -9,3 +9,6 @@ function reset() {
   count = 0;
   countEl.innerText = count;
 }
+function mark() {
+  console.log(count);
+}
