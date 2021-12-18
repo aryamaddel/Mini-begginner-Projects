@@ -39,19 +39,36 @@ html {
         transition: 0.2s;
       }
     }
-    #reset-btn {
-      color: #fff;
-      background-color: #32cd32;
-      padding: 1em;
-      margin: 1em;
-      cursor: pointer;
-      border: none;
-      font-size: x-large;
-      border-radius: 50%;
-      &:hover {
-        color: #51b851;
+    .operations {
+      #reset-btn {
+        color: #fff;
+        background-color: #32cd32;
+        padding: 1em;
+        margin: 1em;
+        cursor: pointer;
+        border: none;
+        font-size: x-large;
+        border-radius: 50%;
+        &:hover {
+          color: #51b851;
+          background-color: #fff;
+          transition: 0.2s;
+        }
+      }
+      #mark-btn {
+        color: #000;
         background-color: #fff;
-        transition: 0.2s;
+        padding: 1em;
+        margin: 1em;
+        cursor: pointer;
+        border: none;
+        font-size: x-large;
+        border-radius: 50%;
+        &:hover {
+          color: #fff;
+          background-color: #000;
+          transition: 0.2s;
+        }
       }
     }
   }
