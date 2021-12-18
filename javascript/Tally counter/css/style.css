@@ -1,7 +1,7 @@
-html,
-body {
-  color: white;
-  background-color: black;
+body,
+html {
+  color: #fff;
+  background-color: #000;
   font-family: monospace;
   letter-spacing: 0.2em;
 }
@@ -27,8 +27,8 @@ body {
 }
 .app .container #increment-btn {
   margin: 1em;
-  color: white;
-  background-color: dodgerblue;
+  color: #fff;
+  background-color: #1e90ff;
   padding: 1em;
   cursor: pointer;
   border: none;
@@ -36,12 +36,12 @@ body {
 }
 .app .container #increment-btn:hover {
   color: red;
-  background-color: white;
-  transition: 200ms;
+  background-color: #fff;
+  transition: 0.2s;
 }
 .app .container #reset-btn {
-  color: white;
-  background-color: limegreen;
+  color: #fff;
+  background-color: #32cd32;
   padding: 1em;
   margin: 1em;
   cursor: pointer;
@@ -50,7 +50,7 @@ body {
   border-radius: 50%;
 }
 .app .container #reset-btn:hover {
-  color: rgb(81, 184, 81);
-  background-color: white;
-  transition: 200ms;
+  color: #51b851;
+  background-color: #fff;
+  transition: 0.2s;
 }
