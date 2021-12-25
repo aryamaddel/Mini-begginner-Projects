@@ -1,4 +1,5 @@
 let countEl = document.getElementById("count-el");
+let readingEl = document.getElementById("reading-el");
 let count = 0;
 let readings = "readings: ";
 function increment() {
@@ -12,4 +13,6 @@ function reset() {
 }
 function mark() {
   console.log(count);
+  readings = readings + count + ", ";
+  readingEl.innerText = readings;
 }
