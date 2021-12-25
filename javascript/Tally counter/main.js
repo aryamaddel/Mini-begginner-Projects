@@ -1,5 +1,6 @@
 let countEl = document.getElementById("count-el");
 let count = 0;
+let readings = "readings: ";
 function increment() {
   console.log("Button was clicked");
   count = count + 1;

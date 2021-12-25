@@ -26,7 +26,7 @@ html {
 }
 
 .app .container .counter {
-  margin: 7em;
+  margin: 5em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,5 +100,13 @@ html {
   background-color: #000;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+}
+
+.app .container .readings {
+  margin: 3em;
+}
+
+.app .container .readings #reading-el {
+  font-size: x-large;
 }
 /*# sourceMappingURL=style.css.map */

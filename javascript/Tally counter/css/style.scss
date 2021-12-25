@@ -14,7 +14,7 @@ html {
     align-items: center;
     align-content: center;
     .counter {
-      margin: 7em;
+      margin: 5em;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -69,6 +69,12 @@ html {
           background-color: #000;
           transition: 0.2s;
         }
+      }
+    }
+    .readings {
+      margin: 3em;
+      #reading-el {
+        font-size: x-large;
       }
     }
   }
