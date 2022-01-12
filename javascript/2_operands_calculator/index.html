@@ -8,6 +8,25 @@
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body>
+    <div class="contaniner">
+      <div class="operands">
+        <span id="numbers">3</span><span id="numbers">5</span>
+      </div>
+      <div class="operations">
+        <button class="addition-btn" onclick="addition()">Add</button>
+        <button class="subtraction-btn" onclick="subtraction()">
+          Subtract
+        </button>
+        <button class="multiplication-btn" onclick="multiplication()">
+          Multiply
+        </button>
+        <button class="division-btn" onclick="division()">Divide</button>
+      </div>
+    </div>
+    <span>
+      Results =
+      <p id="results-el"></p>
+    </span>
     <script src="./main.js"></script>
   </body>
 </html>
