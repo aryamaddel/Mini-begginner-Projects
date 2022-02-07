@@ -18,5 +18,7 @@ while True:
         print("-----------------------------------\n")
         print(pass_geneator() + '\n')  
         print("-----------------------------------\n")
-    else:
+    elif nav_input == 'n':
         quit()
+    else:
+        print('invalid entry')
