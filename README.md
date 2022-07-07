@@ -30,8 +30,10 @@ This includes some super simple projects in python, javascript.
 - QR Code Generator (tool to generate QR codes for a string or a url)
 
 - Search and Sort algorithms 
-    - Binary Search
-    - linear Search
+    - Search Alogos
+        - Binary Search
+        - linear Search
+    - Sort Alogos
 
 <hr>
 
