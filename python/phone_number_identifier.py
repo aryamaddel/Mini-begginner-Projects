@@ -25,3 +25,5 @@ def us_phone_num(text):
     print(phone_num_regex.findall(text))
     print(f"Area code is {mo.group(1)}")
     print(f"Phone Number is {mo.group(2)}")
+
+print(phone_num("My number is 1234567890"))
