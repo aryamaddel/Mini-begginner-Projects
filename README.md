@@ -11,8 +11,6 @@ This includes some super simple projects in python, javascript.
 
 - Email Slicer (email slicer is a tool to slice emails into smaller pieces)
 
-- Password Generator
-
 - Fibonacci Sequence
 
 - Factorial
